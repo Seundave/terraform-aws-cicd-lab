@@ -1,0 +1,12 @@
+.git
+.github
+.pytest_cache
+__pycache__
+*.pyc
+.venv
+venv
+tests
+terraform.tfstate
+terraform.tfstate.*
+*.tfplan
+.env
