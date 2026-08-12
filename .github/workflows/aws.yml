@@ -20,6 +20,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::322513862609:role/GitHubActionsCICDLabRole
           aws-region: us-east-1
+          audience: sts.amazonaws.com
 
       - name: Verify identity
         run: aws sts get-caller-identity 
